@@ -19,10 +19,13 @@
 
 .nav-container a {
   text-decoration: none;
-  font-size: 1.5em;
-  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
 }
 
-.logo-img {
-  padding-right: 75vw;
+h4 {
+  padding-right: 70vw;
+  font-weight: bolder;
+  font-size: 1.3em;
 }

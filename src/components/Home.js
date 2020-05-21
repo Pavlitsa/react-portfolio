@@ -1,15 +1,16 @@
-import React from 'react';
+import React from "react";
 import "./Home.css";
+// import { Link } from "react-router-dom";
+import Footer from "./Footer";
+import Header from "./Header";
 
 const Home = () => {
-    return (
-        <div className="home">
-            <h1>Hello, my name is Pavlina Zafeiri and I'm a<span>Web Developer</span></h1>
-           
-
-
-        </div>
-    )
-}
+  return (
+    <div className="home">
+      <Header />
+      <Footer />
+    </div>
+  );
+};
 
 export default Home;

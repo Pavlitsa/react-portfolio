@@ -1,10 +1,17 @@
 import React from "react";
 // import "./Projects.css";
+import Footer from "./Footer";
 
 const Projects = () => {
   return (
-    <div className="projects" id="work-page">
-     <h1>My Projects go here</h1>
+    <div className="projects">
+    <header>
+        <section></section>
+      </header>
+      <section>
+        <img src="" alt="" />
+      </section>
+      <Footer />
     </div>
   );
 };
