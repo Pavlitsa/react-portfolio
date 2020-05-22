@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Header = (props) => {
   return (
     <div>
+    <div className="empty-box"></div>
       <header className="header-container">
         <div>
           <h1>
