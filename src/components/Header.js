@@ -1,20 +1,18 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
       <header className="header-container">
         <div>
           <h1>
-            <span>
-              Web Developer <br></br>Living in Munich.
-            </span>
+            <span>{props.title}</span>
           </h1>
           <hr />
         </div>
         <div>
-          <img src="mountains.jpg" height="500" width="800" alt="mountains" />
+          <img src={props.image} height="550" width="800" alt="something" />
         </div>
       </header>
     </div>
