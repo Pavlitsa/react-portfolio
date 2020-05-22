@@ -1,13 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer">
       <section className="footer-container">
         <aside>
-            <Link to="/">© 2020 Pavlina Zafeiri</Link>
+            <p>© 2020 Pavlina Zafeiri</p>
         </aside>
         <aside className="links">
           <a href="https://github.com/Pavlitsa">Github</a>

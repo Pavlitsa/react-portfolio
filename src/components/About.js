@@ -6,12 +6,12 @@ import Header from "./Header";
 const About = () => {
   const headerAbout = 
     {
-      title: "A little bit about me.",
-      img: "alps.jpg"
+      title1: "A little bit about me.",
+      img: "flower.jpg"
     }
   return (
     <div className="about">
-      <Header title={headerAbout.title} image={headerAbout.img} />
+      <Header title1={headerAbout.title1} image={headerAbout.img} />
       <Footer />
     </div>
   );

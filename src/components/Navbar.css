@@ -19,13 +19,18 @@
 
 .nav-container a {
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: rgb(0, 0, 0);
   font-weight: bolder;
 }
 
+.nav-container a:hover { 
+  color: rgb(95, 202, 197); 
+  border-bottom: 3px rgb(95, 202, 197) solid;
+}
+
 .name-logo {
-  padding-right: 70vw;
+  margin-right: 73vw;
   font-weight: bolder;
   font-size: 1.3em;
 }
