@@ -15,7 +15,7 @@ const Header = (props) => {
           <hr/>
         </div>
         <div>
-          <img src={props.image} height="550" width="800" alt="something" />
+          <img src={props.image} height="540" width="810" alt="something" />
         </div>
       </header>
     </div>

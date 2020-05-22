@@ -7,7 +7,7 @@ const About = () => {
   const headerAbout = 
     {
       title1: "A little bit about me.",
-      img: "flower.jpg"
+      img: "pavi.jpg"
     }
   return (
     <div className="about">
