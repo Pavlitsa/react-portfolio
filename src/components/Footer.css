@@ -1,6 +1,8 @@
 .footer {
-  background-color: transparent;
-  padding-top: 1%;
+  background-color: rgb(230, 198, 197);
+  padding-top: 1.4%;
+  padding-bottom: 0.4%;
+  /* position: relative; */
 }
 
 .footer-container {

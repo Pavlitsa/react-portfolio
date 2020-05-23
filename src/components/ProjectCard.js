@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
         </div>
         <div className="project-title">
           
-          <h5>{props.description}</h5>
+          <h5 id="description">{props.description}</h5>
           <h5>{props.stack}</h5>
         </div>
       </section>

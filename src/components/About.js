@@ -12,6 +12,12 @@ const About = () => {
   return (
     <div className="about">
       <Header title1={headerAbout.title1} image={headerAbout.img} />
+      <section>
+
+      </section>
+      <section>
+        
+      </section>
       <Footer />
     </div>
   );
