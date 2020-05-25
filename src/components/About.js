@@ -13,18 +13,32 @@ const About = () => {
       <Header title1={headerAbout.title1} image={headerAbout.img} />
       <hr className="hr" />
       <section className="about-container">
-        <div className="profile">
+        <div>
           <h4>Profile</h4>
         </div>
-        <div>
+        <div className="profile">
           <p>
-            I am a Web Developer with a hands-on attitude and great
-            communication skills. I recently completed an intensive Web
-            Development Bootcamp at Ironhack, Berlin. With a background in
-            E-Commerce Customer Operations, I am looking for a Web Developer
-            internship in a welcoming team, where opportunities for growth and
-            professional development are embraced and where I can apply and
-            develop my recently acquired skills.
+            My name is Pavlina and I recently became a Web Developer. With a
+            degree in Political Science and first working experience in the film
+            industry, almost 8 years ago I decided to move to Munich. After
+            working in Retail and later in E-Commerce as a Customer Operations
+            Manager, I recently decided to make a big career change and fully
+            dedicate myself to learning how to code. Programming has always
+            fascincated me because of all that can be built and achieved with
+            it. As a plus, it offers me the opportunity for constant learning
+            and improvement.
+          </p>
+          <p>
+            For those reasons I decided to join the Ironhack Web Development
+            Bootcamp in Berlin in winter of 2019. I am currently refining my
+            skills by building new projects and looking forward to joining
+            a welcoming team as an Junior Developer or Intern.
+          </p>
+          <p>
+            You can check out my latest projects here (or add under experience a
+            projects section with a link to the project page: idea here is to
+            make the user jump through your website smoothly. Homepage --> link
+            to about me --> link to projects)
           </p>
         </div>
       </section>
@@ -35,15 +49,12 @@ const About = () => {
         </div>
         <div className="experience">
           <p>
-            <strong>
-              Full Stack Web Development Bootcamp
-            </strong>, 
-            Oct. - Dec. 2019 Ironhack
-              Berlin, Germany
+            <strong>Full Stack Web Development Bootcamp</strong>, Oct. - Dec.
+            2019 Ironhack Berlin, Germany
           </p>
           <p>
-            <strong>E-Commerce Customer Operations Manager </strong>,
-            Freeletics GmbH, Munich Oct. 2015 - Jul. 2019
+            <strong>E-Commerce Customer Operations Manager </strong>, Freeletics
+            GmbH, Munich Oct. 2015 - Jul. 2019
           </p>
         </div>
       </section>

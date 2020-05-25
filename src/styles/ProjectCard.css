@@ -19,22 +19,42 @@
   align-items: center;
 }
 
-.card h2 {
+.card a {
   padding-bottom: 1%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  color: rgb(70, 165, 170); 
+  border-bottom: 3px rgb(70, 165, 170) solid;
 }
 
 .project-img {
-    border: white 3px solid;
-    margin-bottom: 2%;
+  border: white 3px solid;
+  margin-bottom: 2%;
 }
 
 .project-title {
   margin-bottom: 2%;
 }
 
-h2, h5 {
+.project-description li {
+  list-style: none;
   text-align: center;
-  margin-left: 29vw;
-  margin-right: 29vw;
+  margin-left: 21vw;
+  margin-right: 23vw;
   font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1%;
 }
+
+/* .h5-title {
+  margin-bottom: 2%;
+  margin-left: 26vw;
+  margin-right: 26vw;
+} */

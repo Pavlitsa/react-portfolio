@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
     <div className="card-container">
       <section className="card">
         <div className="ghost-img">
-        <h2>{props.title}</h2>
+          <a href={props.link}>{props.title}</a>
           <img
             src={props.image}
             alt="screenshot"
@@ -15,10 +15,11 @@ const ProjectCard = (props) => {
             className="project-img"
           />
         </div>
-        <div className="project-title">
-          
-          <h5 id="description">{props.description}</h5>
-          <h5>{props.stack}</h5>
+        <div className="project-description">
+          <ul>
+            <li className="li-title">{props.description}</li>
+            <li className="li-stack">{props.stack}</li>
+          </ul>
         </div>
       </section>
     </div>

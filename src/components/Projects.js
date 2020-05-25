@@ -7,11 +7,10 @@ import ProjectList from "./ProjectList";
 
 const Projects = (props) => {
   const headerProjects = {
-    title1: "Below you can find all the projects I have created or participated in.",
-    img: "sketch.jpg"
+    // title1: "Below you can find all the projects I have created or participated in.",
+    title1: "Below you can find some of my favourite projects.",
+    img: "sketch.jpg",
   };
-
-
 
   return (
     <div className="home">
@@ -24,4 +23,3 @@ const Projects = (props) => {
 };
 
 export default Projects;
-
