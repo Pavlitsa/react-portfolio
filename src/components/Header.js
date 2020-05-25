@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "../styles/Header.css";
 import { Link } from "react-router-dom";
 
 const Header = (props) => {
@@ -9,13 +9,13 @@ const Header = (props) => {
       <header className="header-container">
         <div>
           <h1>
-            <span>{props.title1} <br/>{props.title2}</span>
+            <span>{props.title1}</span>
           </h1>
           <h3>{props.subtitle}<span><Link className="here-link" to="/about">{props.link}</Link></span></h3>
           <hr/>
         </div>
         <div>
-          <img src={props.image} height="540" width="810" alt="something" />
+          <img src={props.image} height="540" width="820" alt="something" />
         </div>
       </header>
     </div>

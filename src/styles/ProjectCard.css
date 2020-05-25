@@ -1,3 +1,7 @@
+.card-container {
+  margin-top: 6%;
+}
+
 .card-container .card {
   width: 100%;
   margin-top: 20%;
@@ -5,8 +9,8 @@
   z-index: -1;
   margin: 0 auto;
   border: none;
-  background-color: rgb(230, 198, 197, 0.9);
-  margin-bottom: 8%;
+  background-color: rgb(245, 223, 223, 0.9);
+  margin-bottom: 5%;
 }
 
 .card div {

@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: rgb(230, 198, 197, 0.9);
+  background-color: rgb(245, 223, 223, 0.9);
   position: fixed;
   top: 0;
   height: 8%;
@@ -24,12 +24,12 @@
 }
 
 .nav-container a:hover { 
-  color: rgb(255, 255, 255); 
-  border-bottom: 3px rgb(255, 255, 255) solid;
+  color: rgb(70, 165, 170); 
+  border-bottom: 3px rgb(70, 165, 170) solid;
 }
 
 .name-logo {
   margin-right: 73vw;
   font-weight: bolder;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
