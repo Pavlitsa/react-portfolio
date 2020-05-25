@@ -19,26 +19,23 @@ const About = () => {
         <div className="profile">
           <p>
             My name is Pavlina and I recently became a Web Developer. With a
-            degree in Political Science and first working experience in the film
-            industry, almost 8 years ago I decided to move to Munich. After
-            working in Retail and later in E-Commerce as a Customer Operations
-            Manager, I recently decided to make a big career change and fully
-            dedicate myself to learning how to code. Programming has always
-            fascincated me because of all that can be built and achieved with
-            it. As a plus, it offers me the opportunity for constant learning
-            and improvement.
+            degree in <strong>Political Science</strong> and first working
+            experience in the <strong>film industry</strong>, almost 8 years ago
+            I decided to move to <strong>Munich</strong>. After working in
+            Retail and later in <strong>E-Commerce</strong> as a Customer
+            Operations Manager, I recently decided to make a big career change
+            and fully dedicate myself to learning how to code. Programming has
+            always fascincated me because of all that can be built and achieved
+            with it. As a plus, it offers me the opportunity for constant
+            learning and improvement.
           </p>
           <p>
-            For those reasons I decided to join the Ironhack Web Development
-            Bootcamp in Berlin in winter of 2019. I am currently refining my
-            skills by building new projects and looking forward to joining
-            a welcoming team as an Junior Developer or Intern.
-          </p>
-          <p>
-            You can check out my latest projects here (or add under experience a
-            projects section with a link to the project page: idea here is to
-            make the user jump through your website smoothly. Homepage --> link
-            to about me --> link to projects)
+            Those are some of the reasons why, in winter of 2019, I decided to
+            join the <strong>Ironhack Web Development Bootcamp</strong> in
+            Berlin. After successfully completing it, I have been working on
+            refining my skills by building new projects. I am now looking to
+            join a welcoming team as a
+            <strong> Junior Developer or Web Development intern</strong>.
           </p>
         </div>
       </section>
@@ -49,12 +46,45 @@ const About = () => {
         </div>
         <div className="experience">
           <p>
-            <strong>Full Stack Web Development Bootcamp</strong>, Oct. - Dec.
-            2019 Ironhack Berlin, Germany
+            <strong>Full Stack Web Development Bootcamp</strong> <br />
+            Ironhack, Berlin
           </p>
           <p>
-            <strong>E-Commerce Customer Operations Manager </strong>, Freeletics
-            GmbH, Munich Oct. 2015 - Jul. 2019
+            <strong>E-Commerce Customer Operations Manager </strong>
+            <br />
+            Freeletics GmbH, Munich
+          </p>
+          <p>
+            <strong>Community Management Intern </strong>
+            <br /> InterNations GmbH, Munich
+          </p>
+          <p>
+            <strong>Overnight Visual Merchandiser / Retail </strong>
+            <br /> Hollister Co., Munich
+          </p>
+
+          <p>
+            <strong>
+              Office Administrator, PA of the Managing Director
+            </strong><br />
+            Filmopolis S.A, Athens
+          </p>
+          <p>
+            You can find out more about my professional journey in my{" "}
+            <a href="https://www.linkedin.com/in/pavlina-zafeiri-37109457/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a> profile
+          </p>
+        </div>
+      </section>
+      <hr className="hr" />
+      <section className="projects-container">
+        <div>
+          <h4>Projects</h4>
+        </div>
+        <div className="projects">
+          <p>
+            You can take a look at my projects <a href="/projects" target="_blank" rel="noopener noreferrer">here</a>.
           </p>
         </div>
       </section>

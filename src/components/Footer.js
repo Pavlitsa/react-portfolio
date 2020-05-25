@@ -9,8 +9,8 @@ const Footer = () => {
             <p>© 2020 Pavlina Zafeiri</p>
         </aside>
         <aside className="links">
-          <a href="https://github.com/Pavlitsa">Github</a>
-          <a href="https://github.com/Pavlitsa">LinkedIn</a>
+          <a href="https://github.com/Pavlitsa" target="_blank" rel="noopener noreferrer">Github</a>
+          <a href="https://www.linkedin.com/in/pavlina-zafeiri-37109457/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </aside>
       </section>
     </div>

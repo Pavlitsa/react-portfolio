@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
     <div className="card-container">
       <section className="card">
         <div className="ghost-img">
-          <a href={props.link}>{props.title}</a>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">{props.title}</a>
           <img
             src={props.image}
             alt="screenshot"

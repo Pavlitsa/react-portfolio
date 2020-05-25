@@ -1,12 +1,11 @@
 .card-container {
-  margin-top: 6%;
+  margin-top: 6%; 
 }
 
 .card-container .card {
   width: 100%;
   margin-top: 20%;
   padding-top: 2%;
-  z-index: -1;
   margin: 0 auto;
   border: none;
   background-color: rgb(245, 223, 223, 0.9);
@@ -20,18 +19,19 @@
 }
 
 .card a {
-  padding-bottom: 1%;
   text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
+  padding-bottom: 0;
+  margin-bottom: 1%;
+  text-decoration: underline;
 }
 
 .card a:hover {
   text-decoration: underline;
-  color: rgb(70, 165, 170); 
-  border-bottom: 3px rgb(70, 165, 170) solid;
+  color: rgb(142, 204, 207); 
 }
 
 .project-img {
@@ -52,9 +52,3 @@
   font-size: 1.1rem;
   margin-bottom: 1%;
 }
-
-/* .h5-title {
-  margin-bottom: 2%;
-  margin-left: 26vw;
-  margin-right: 26vw;
-} */
