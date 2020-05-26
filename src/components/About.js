@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import "../styles/About.css";
 import Header from "./Header";
 import pavi from "../images/pavi.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   const headerAbout = {
@@ -89,7 +90,7 @@ const About = () => {
         </div>
         <div className="projects">
           <p>
-            You can take a look at my projects <a href="/projects">here</a>.
+            You can take a look at my projects <Link to="/projects">here</Link>.
           </p>
         </div>
       </section>
