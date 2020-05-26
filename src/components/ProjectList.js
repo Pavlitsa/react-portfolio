@@ -1,5 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import coffefi from "../images/coffefi.PNG";
+import flatHappens from "../images/flat-happens.PNG";
+import ghostTown from "../images/ghost-town.PNG";
 
 const ProjectList = (props) => {
   const projects = [
@@ -20,7 +23,7 @@ const ProjectList = (props) => {
         "Full stack responsive application with user generated content that helps users find or pin on a map all the work-friendly coffee places in the city.",
       stack:
         "Built with: Node.js, Express, MongoDB, JavaScript, Mapbox API, HTML, CSS",
-      img: "coffefi.png",
+      img: coffefi,
       link: "https://coffeefi.herokuapp.com/",
     },
     {
@@ -30,7 +33,7 @@ const ProjectList = (props) => {
         "Full stack responsive MERN application that allows users who live in a shared flat to arrange a schedule for their shared tasks.",
       stack:
         "Built with: React, Node.js, MongoDB, Express, JavaScript, HTML & CSS",
-      img: "flat-happens.png",
+      img: flatHappens,
       link: "https://flat-happens.herokuapp.com/",
     },
     {
@@ -39,7 +42,7 @@ const ProjectList = (props) => {
       description:
         "A game for two players who have to cross the street without getting caught by the passing-by obstacles.",
       stack: "Built with: Javascript, p5.js, HTML, CSS",
-      img: "ghost-town.png",
+      img: ghostTown,
       link: "https://pavlitsa.github.io/game-project-ghost-town/",
     },
   ];

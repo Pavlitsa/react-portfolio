@@ -4,12 +4,13 @@ import "../styles/Projects.css";
 import Footer from "./Footer";
 import Header from "./Header";
 import ProjectList from "./ProjectList";
+import sketch from "../images/sketch.jpg";
 
 const Projects = (props) => {
   const headerProjects = {
     // title1: "Below you can find all the projects I have created or participated in.",
     title1: "Below you can find some of my favourite projects.",
-    img: "sketch.jpg",
+    img: sketch,
   };
 
   return (

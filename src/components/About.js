@@ -2,11 +2,12 @@ import React from "react";
 import Footer from "./Footer";
 import "../styles/About.css";
 import Header from "./Header";
+import pavi from "../images/pavi.jpg";
 
 const About = () => {
   const headerAbout = {
     title1: "A little bit about me.",
-    img: "pavi.jpg",
+    img: pavi,
   };
   return (
     <div className="about">

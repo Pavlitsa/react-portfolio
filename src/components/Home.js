@@ -1,13 +1,14 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import ironhack2 from "../images/ironhack2.jpg";
 
 const Home = () => {
   const headerHome = {
     title1: "Hi, my name is Pavlina and I'm a Web Developer living in Munich.",
     subtitle: "Find out more about me ",
     link: "here",
-    img: "ironhack2.jpg"
+    img: ironhack2
   };
 
   return (
