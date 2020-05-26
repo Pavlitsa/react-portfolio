@@ -1,18 +1,3 @@
-.about-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.about-container div {
-  margin: 5% 5% 3% 7%;
-}
-
-.about-container .experience {
-  margin-bottom: 3%;
-  margin-right: 23.8%;
-}
-
 .hr {
   width: 90%;
   height: 2px;
@@ -23,20 +8,45 @@
   border: 0;
 }
 
-.about-container  div .projects {
+.experience,
+.projects-container,
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-container div,
+.experience div,
+.projects-container div {
+  margin: 5% 5% 3% 7%;
+}
+
+.about-container h4,
+.projects-container h4,
+.experience h4 {
+  font-weight: bold;
+}
+
+.projects p, .experience p {
+  margin-left: -56vw;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.about-container .experience {
+  margin-bottom: 3%;
+}
+
+.about-container .projects {
   margin-bottom: 10%;
   margin-left: 0;
 }
 
-.about-container p {
+.profile p {
   font-size: 1.2rem;
   margin-left: 20%;
   font-weight: normal;
-}
-
-.profile p {
-  padding-right: 12%;
-  font-size: 1.2rem;
 }
 
 .experience a {
@@ -61,28 +71,4 @@
   color: rgb(142, 204, 207);
   border-bottom: 2px rgb(142, 204, 207) solid;
   font-weight: bold;
-}
-
-.about-container h4 {
-  font-weight: bold;
-}
-
-.projects-container h4 {
-  font-weight: bold;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.projects-container div {
-  margin: 5% 0% 3% 7%;
-}
-
-.projects p {
-  margin-left: -61vw;
-  font-size: 1.2rem;
-  font-weight: normal;
 }

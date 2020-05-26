@@ -42,34 +42,31 @@ const About = () => {
         </div>
       </section>
       <hr className="hr" />
-      <section className="about-container">
+      <section className="experience">
         <div>
           <h4>Experience</h4>
         </div>
-        <div className="experience">
+        <div>
           <p>
-            <strong>Full Stack Web Development Bootcamp</strong> <br />
-            Ironhack, Berlin
+            <strong>Full Stack Web Development Bootcamp</strong>
           </p>
+          <p>Ironhack, Berlin</p>
           <p>
             <strong>E-Commerce Customer Operations Manager </strong>
-            <br />
-            Freeletics GmbH, Munich
           </p>
+          <p>Freeletics GmbH, Munich</p>
           <p>
             <strong>Community Management Intern </strong>
-            <br /> InterNations GmbH, Munich
           </p>
+          <p>InterNations GmbH, Munich</p>
           <p>
             <strong>Overnight Visual Merchandiser / Retail </strong>
-            <br /> Hollister Co., Munich
           </p>
-
+          <p>Hollister Co., Munich</p>
           <p>
             <strong>Office Administrator, PA of the Managing Director</strong>
-            <br />
-            Filmopolis S.A, Athens
           </p>
+          <p>Filmopolis S.A, Athens</p>
           <p>
             You can find out more about my professional journey in my{" "}
             <a
