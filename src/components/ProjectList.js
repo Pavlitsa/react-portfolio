@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import coffefi from "../images/coffefi.PNG";
-import flatHappens from "../images/flat-happens.PNG";
-import ghostTown from "../images/ghost-town.PNG";
+import coffefi from "../images/coffefi.jpg";
+import flatHappens from "../images/flat-happens.jpg";
+import ghostTown from "../images/ghost-town.jpg";
 
 const ProjectList = (props) => {
   const projects = [
