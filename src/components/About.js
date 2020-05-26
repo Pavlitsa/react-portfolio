@@ -65,16 +65,20 @@ const About = () => {
           </p>
 
           <p>
-            <strong>
-              Office Administrator, PA of the Managing Director
-            </strong><br />
+            <strong>Office Administrator, PA of the Managing Director</strong>
+            <br />
             Filmopolis S.A, Athens
           </p>
           <p>
             You can find out more about my professional journey in my{" "}
-            <a href="https://www.linkedin.com/in/pavlina-zafeiri-37109457/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/pavlina-zafeiri-37109457/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LinkedIn
-            </a> profile
+            </a>{" "}
+            profile
           </p>
         </div>
       </section>
@@ -85,7 +89,7 @@ const About = () => {
         </div>
         <div className="projects">
           <p>
-            You can take a look at my projects <a href="/projects" target="_blank" rel="noopener noreferrer">here</a>.
+            You can take a look at my projects <a href="/projects">here</a>.
           </p>
         </div>
       </section>
