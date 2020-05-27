@@ -12,7 +12,7 @@ const Header = (props) => {
           <h1>
             <span>{props.title1}</span>
           </h1>
-          <h3>{props.subtitle}<span><Link className="here-link" to="/react-portfolio/about">{props.link}</Link></span></h3>
+          <h3>{props.subtitle}<span><Link className="here-link" to="/about">{props.link}</Link></span></h3>
           <hr/>
         </div>
         <div>
