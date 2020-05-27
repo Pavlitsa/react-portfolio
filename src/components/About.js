@@ -97,7 +97,7 @@ const About = () => {
         </div>
         <div className="projects">
           <p>
-            You can take a look at my projects <Link to="/projects">here</Link>.
+            You can take a look at my projects <Link to="/react-portfolio/projects">here</Link>.
           </p>
         </div>
       </section>
