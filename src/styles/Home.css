@@ -4,3 +4,13 @@
   padding-top: 0;
   position: relative;
 }
+
+/* smartphone portrait */
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .main {
+    min-height: calc(80vh - 283px - 25px);
+    width: 100%;
+    padding-top: 0;
+    position: relative;
+  }
+}
