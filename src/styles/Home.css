@@ -11,10 +11,15 @@
   .main {
     height: 39.2vh;
   }
-  
 }
 
-@media screen and (min-width: 481px) and (max-width: 1299px) {
+@media screen and (min-width: 481px) and (max-width: 1503px) {
+  .main {
+    height: 27vh;
+  }
+}
+
+@media screen and (min-width: 1505px) and (max-width: 1700px) {
   .main {
     height: 27vh;
   }
