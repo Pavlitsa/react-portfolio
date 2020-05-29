@@ -31,7 +31,7 @@
 
 .card a:hover {
   text-decoration: underline;
-  color: rgb(142, 204, 207); 
+  color: rgb(142, 204, 207);
 }
 
 .project-img {
@@ -51,4 +51,46 @@
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 1%;
+}
+
+/* smartphone portrait */
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .card a {
+    font-size: 1rem;
+  }
+
+  .project-img {
+    height: 200px;
+    width: 370px;
+    margin-bottom: 2%;
+  }
+
+  .project-title {
+    margin-bottom: 2%;
+  }
+
+  .project-description li {
+    /* margin-left: 21vw;
+    margin-right: 23vw; */
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1300px) {
+
+  .card a {
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    margin-bottom: 1%;
+  }
+
+  .project-img {
+    height: 395px;
+    width: 700px;
+  }
+
+  .project-description li {
+    font-size: 1rem;
+  }
 }

@@ -6,16 +6,6 @@ import ghostTown from "../images/ghost-town.jpg";
 
 const ProjectList = (props) => {
   const projects = [
-    // {
-    //   id: "1",
-    //   title: 'Smart Brain - Face Recognition',
-    //   description:
-    //     "Full stack responsive application with user generated content that helps users find or pin on a map all the work-friendly coffee places in the city.",
-    //   stack:
-    //     "Built with: Node.js, Express, MongoDB, JavaScript, Mapbox API, HTML, CSS",
-    //   img: "coffefi.png",
-    //   link: "https://coffeefi.herokuapp.com/",
-    // },
     {
       id: "2",
       title: '"Coffefi"',

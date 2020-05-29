@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   const headerAbout = {
-    title1: "A little bit about me.",
+    title1: "A little bit about me and my professional journey so far.",
     img: pavi,
   };
   return (
@@ -18,7 +18,7 @@ const About = () => {
         <div>
           <h4>Profile</h4>
         </div>
-        <div className="profile">
+        <div className="paragraph">
           <p>
             My name is Pavlina and I recently became a Web Developer. With a
             degree in <strong>Political Science</strong> and first working
@@ -42,7 +42,7 @@ const About = () => {
         </div>
       </section>
       <hr className="hr" />
-      <section className="experience">
+      <section className="paragraph experience">
         <div>
           <h4>Experience</h4>
         </div>
@@ -86,7 +86,7 @@ const About = () => {
             >
               LinkedIn
             </a>{" "}
-            profile
+            profile.
           </p>
         </div>
       </section>
@@ -95,7 +95,7 @@ const About = () => {
         <div>
           <h4>Projects</h4>
         </div>
-        <div className="projects">
+        <div className="paragraph">
           <p>
             You can take a look at my projects <Link to="/projects">here</Link>.
           </p>

@@ -8,7 +8,7 @@ const Home = () => {
   const headerHome = {
     title1: "Hi, my name is Pavlina and I'm a Web Developer living in Munich.",
     subtitle: "Find out more about me ",
-    link: "here",
+    link: "here.",
     img: ironhack2
   };
 

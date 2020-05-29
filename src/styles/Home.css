@@ -1,5 +1,6 @@
 .main {
-  min-height: calc(100vh - 772px - 25px);
+  /* min-height: calc(100vh - 772px - 25px); */
+  height: 8vh;
   width: 100%;
   padding-top: 0;
   position: relative;
@@ -8,9 +9,13 @@
 /* smartphone portrait */
 @media screen and (min-width: 300px) and (max-width: 480px) {
   .main {
-    min-height: calc(80vh - 283px - 25px);
-    width: 100%;
-    padding-top: 0;
-    position: relative;
+    height: 39.2vh;
+  }
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 1299px) {
+  .main {
+    height: 27vh;
   }
 }
