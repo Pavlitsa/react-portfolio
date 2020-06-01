@@ -24,3 +24,9 @@
     height: 27vh;
   }
 }
+
+@media screen and (min-width: 1701px) and (max-width: 2000px) {
+  .main {
+    height: 27vh;
+  }
+}

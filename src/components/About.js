@@ -15,7 +15,7 @@ const About = () => {
       <Header title1={headerAbout.title1} image={headerAbout.img} />
       <hr className="hr" />
       <section className="about-container">
-        <div>
+        <div className="title">
           <h4>Profile</h4>
         </div>
         <div className="paragraph">
@@ -42,11 +42,11 @@ const About = () => {
         </div>
       </section>
       <hr className="hr" />
-      <section className="paragraph experience">
-        <div>
+      <section className="experience">
+        <div className="title">
           <h4>Experience</h4>
         </div>
-        <div>
+        <div className="paragraph">
           <p>
             <strong>Full Stack Web Development Bootcamp</strong>
             <br />
@@ -92,7 +92,7 @@ const About = () => {
       </section>
       <hr className="hr" />
       <section className="projects-container">
-        <div>
+        <div className="title">
           <h4>Projects</h4>
         </div>
         <div className="paragraph">

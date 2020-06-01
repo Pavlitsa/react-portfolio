@@ -44,83 +44,9 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 1505px) and (max-width: 1900px) {
-  .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    padding-left: 2%;
-  }
-  .nav-item a {
-    font-size: 1.3rem;
-    margin-left: 0%;
-    margin-right: 18%;
-  }
-
-  .name-logo {
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (min-width: 951px) and (max-width: 1299px) {
-  .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    padding-left: 2%;
-  }
-  .nav-item a {
-    font-size: 1.1rem;
-    margin-left: -5%;
-    margin-right: 18%;
-  }
-
-  .name-logo {
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 950px) {
-  .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    padding-left: 4%;
-  }
-  .nav-item a {
-    font-size: 1rem;
-    margin-left: -5%;
-    margin-right: 15%;
-  }
-
-  .name-logo {
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    font-size: 1rem;
-  }
-}
-
 /* smartphone portrait */
 @media screen and (min-width: 300px) and (max-width: 480px) {
   .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
     padding-left: 4%;
   }
   .nav-item a {
@@ -134,5 +60,53 @@
     color: black;
     font-weight: bolder;
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 950px) {
+  .nav-container {
+    padding-left: 4%;
+  }
+
+  .nav-item a {
+    font-size: 1rem;
+    margin-left: -5%;
+    margin-right: 15%;
+  }
+
+  .name-logo {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1299px) {
+  .nav-container {
+    padding-left: 2%;
+  }
+
+  .nav-item a {
+    font-size: 1.1rem;
+    margin-left: -5%;
+    margin-right: 18%;
+  }
+
+  .name-logo {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1505px) and (max-width: 1900px) {
+  .nav-container {
+    padding-left: 2%;
+  }
+  
+  .nav-item a {
+    font-size: 1.3rem;
+    margin-left: 0%;
+    margin-right: 18%;
+  }
+
+  .name-logo {
+    font-size: 1.3rem;
   }
 }

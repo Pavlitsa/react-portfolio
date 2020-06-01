@@ -18,8 +18,7 @@
   border-bottom: 2px rgb(142, 204, 207) solid;
 }
 
-.footer-container a,
-p {
+.footer-container a {
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: bolder;
@@ -32,4 +31,29 @@ p {
 
 .social a {
   margin-right: 2vw;
+}
+
+/* smartphone portrait */
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .footer-container a {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 950px) {
+  .footer-container a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1299px) {
+  .footer-container a {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1505px) and (max-width: 1900px) {
+  .footer-container a {
+    font-size: 1.1rem;
+  }
 }
