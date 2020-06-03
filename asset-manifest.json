@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2776071e.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.9c67ae93.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.9c67ae93.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.b5f57566.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b5f57566.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.8c64cdeb.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.8c64cdeb.js.map",
     "static/css/2.af3c1da9.chunk.css": "/react-portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2632ccfa.chunk.js": "/react-portfolio/static/js/2.2632ccfa.chunk.js",
-    "static/js/2.2632ccfa.chunk.js.map": "/react-portfolio/static/js/2.2632ccfa.chunk.js.map",
+    "static/js/2.867a8cdb.chunk.js": "/react-portfolio/static/js/2.867a8cdb.chunk.js",
+    "static/js/2.867a8cdb.chunk.js.map": "/react-portfolio/static/js/2.867a8cdb.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.d624ec84cc15c133330bb34a710325f5.js": "/react-portfolio/precache-manifest.d624ec84cc15c133330bb34a710325f5.js",
+    "precache-manifest.0552ddd667ad991a6937eb9f87aad6b0.js": "/react-portfolio/precache-manifest.0552ddd667ad991a6937eb9f87aad6b0.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/react-portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.2776071e.chunk.css.map": "/react-portfolio/static/css/main.2776071e.chunk.css.map",
-    "static/js/2.2632ccfa.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.2632ccfa.chunk.js.LICENSE.txt",
+    "static/js/2.867a8cdb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.867a8cdb.chunk.js.LICENSE.txt",
     "static/media/coffefi.jpg": "/react-portfolio/static/media/coffefi.33f0adb2.jpg",
     "static/media/flat-happens.jpg": "/react-portfolio/static/media/flat-happens.accdbcae.jpg",
     "static/media/ghost-town.jpg": "/react-portfolio/static/media/ghost-town.b0fa9e01.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.8c64cdeb.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2632ccfa.chunk.js",
+    "static/js/2.867a8cdb.chunk.js",
     "static/css/main.2776071e.chunk.css",
-    "static/js/main.9c67ae93.chunk.js"
+    "static/js/main.b5f57566.chunk.js"
   ]
 }
