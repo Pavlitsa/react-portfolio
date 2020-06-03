@@ -10,7 +10,6 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-
       <Route exact path="/react-portfolio" component={Home} />
       <Route exact path="/" component={Home} />
       <Route exact path="/home" component={Home} />
