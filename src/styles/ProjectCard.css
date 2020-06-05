@@ -46,10 +46,10 @@
 .project-description li {
   list-style: none;
   text-align: center;
-  width: 60%;
-  margin-left: 18%;
-  /* margin-left: 21vw;
-  margin-right: 23vw; */
+  /* width: 60%;
+  margin-left: 18%; */
+  margin-left: 21vw;
+  margin-right: 23vw;
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 1%;
@@ -58,6 +58,7 @@
 /* smartphone portrait */
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
+
   .card a {
     font-size: 1rem;
   }
@@ -72,10 +73,13 @@
     margin-bottom: 2%;
   }
 
+  .project-description ul {
+    padding-left: 0%;
+  }
   .project-description li {
     font-size: 0.8rem;
-    width: 90%;
-    padding-right: 35%;
+    /* width: 90%; */
+    /* padding-right: 35%; */
   }
 }
 
@@ -93,7 +97,7 @@
 
   .project-description li {
     font-size: 1rem;
-    width: 90%;
-    padding-right: 30%;
+    /* width: 90%; */
+    /* padding-right: 30%; */
   }
 }
